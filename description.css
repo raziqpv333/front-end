@@ -1,0 +1,5 @@
+
+.a5{color:red;}
+#a6{color:blue;}
+dt{color:brown;}
+.a5,#a6,dt{color:green;}
