@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <style>
+    .two{grid-area: 0;background-color: aliceblue;padding: 30px;height:10vh;}
+    .three{grid-area: 0;background-color: brown;}
+    .four{grid-area:HILFIGER; background-color: darkblue;color: aliceblue;padding: 30px;}
+    
+    .grid-container{display: grid; grid-template-areas:
+        'TOMMY TOMMY'
+        '0 0'
+        'HILFIGER HILFIGER';
+        gap: 0px;
+        padding:300px; width: 1000px;}
+        .grid-container >div {text-align: center;font-size: large; }
+        .one{grid-area:TOMMY;background-color:darkblue; color:white;padding: 30px;}
+
+</style>    
+</head>
+<body>
+    <div class="grid-container">
+        <div class="one">TOMMY</div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four">HILFIGER</div>     
+     </div>
+    
+</body>
+</html>
